@@ -3,7 +3,7 @@ package fr.dampierre;
 import java.util.Scanner;
 
 // Utilisation de la classe Character pour vérifier les majuscules
-import static java.lang.Character.*;;
+import static java.lang.Character.isUpperCase;;
 
 public class M2E5 {
 
