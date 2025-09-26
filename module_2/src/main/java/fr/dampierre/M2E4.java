@@ -6,8 +6,6 @@ public class M2E4 {
 
     public static void main(String[] args) {
 
-        // Avoir une source (src/) avec mes exos
-
         Scanner clavier = new Scanner(System.in);
 
         System.out.println("EXERCICE 2");

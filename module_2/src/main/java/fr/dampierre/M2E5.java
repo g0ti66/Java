@@ -1,24 +1,30 @@
 package fr.dampierre;
 
 import java.util.Scanner;
+import static java.lang.Character.*;;
 
-public class M2E5 {
+public class App {
 
     public static void main(String[] args) {
 
-        // Initialisation du Scanner pour le clavier
         Scanner clavier = new Scanner(System.in);
 
-        System.out.println("EXERCICE 5");
-        System.out.println("------------------------------------------------------------");
+        // Exercice 5
+        System.out.print("Entrez un mot : ");
+        String mot = clavier.next();
 
-        String str = "Welcome to string handling tutorial";
+        char ch1 = mot.charAt(0);
 
-        char ch1 = str.charAt(0);
+        if (isUpperCase(ch1)) {
+            System.out.println("Le mot commence par un majuscule.");
+        } else {
+            System.out.println("Le mot commence par une minuscule.");
 
-        System.out.println("Character at 0 index is: " + ch1);
+        }
 
-        System.out.println("------------------------------------------------------------");
+        String javaString = " String length example ";
+        int stringSize = javaString.trim().length();
+        System.out.println(stringSize);
 
         clavier.close();
 
