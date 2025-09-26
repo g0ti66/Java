@@ -1,15 +1,17 @@
 package fr.dampierre;
 
 import java.util.Scanner;
+
+// Utilisation de la classe Character pour vérifier les majuscules
 import static java.lang.Character.*;;
 
-public class App {
+public class M2E5 {
 
     public static void main(String[] args) {
 
+        // Initialisation du clavier
         Scanner clavier = new Scanner(System.in);
 
-        // Exercice 5
         System.out.print("Entrez un mot : ");
         String mot = clavier.next();
 
