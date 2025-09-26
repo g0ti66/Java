@@ -15,18 +15,16 @@ public class M2E5 {
         System.out.print("Entrez un mot : ");
         String mot = clavier.next();
 
+        // Prendre le premier caractères
         char ch1 = mot.charAt(0);
 
+        // Vérification de la majuscule
         if (isUpperCase(ch1)) {
             System.out.println("Le mot commence par un majuscule.");
         } else {
             System.out.println("Le mot commence par une minuscule.");
 
         }
-
-        String javaString = " String length example ";
-        int stringSize = javaString.trim().length();
-        System.out.println(stringSize);
 
         clavier.close();
 
