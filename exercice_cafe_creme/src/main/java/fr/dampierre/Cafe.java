@@ -35,18 +35,18 @@ public class Cafe {
         int cinquanteCentTotal = cinquanteCent * 50;
 
         // Résultat
-        int totalPiece = cent + cinqCentTotal + dixCentTotal + vingtCentTotal + cinquanteCentTotal;
+        int totalCent = cent + cinqCentTotal + dixCentTotal + vingtCentTotal + cinquanteCentTotal;
 
         // Différence
-        int differencePieces = Math.abs(coutCafe - totalPiece);
+        int differenceCent = Math.abs(coutCafe - totalCent);
 
         // Résultat
-        if (coutCafe > totalPiece) {
-            System.out.println("Il vous manque " + differencePieces + " cents pour votre café.");
-        } else if (coutCafe == totalPiece) {
+        if (coutCafe > totalCent) {
+            System.out.println("Il vous manque " + differenceCent + " cents pour votre café.");
+        } else if (coutCafe == totalCent) {
             System.out.println("Vous avez tout juste pour vous payer le café.");
         } else {
-            System.out.println("Vous pouvez vous payer le café et il vous restera " + differencePieces + " cents.");
+            System.out.println("Vous pouvez vous payer le café et il vous restera " + differenceCent + " cents.");
         }
 
         clavier.close();
