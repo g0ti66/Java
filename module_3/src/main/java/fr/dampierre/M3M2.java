@@ -14,9 +14,6 @@ public class M3M2 {
                 System.out.print("*");
             }
             System.out.println();
-
         }
-
     }
-
 }

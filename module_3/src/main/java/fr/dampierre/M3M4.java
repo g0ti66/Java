@@ -9,9 +9,6 @@ public class M3M4 {
                 System.out.print(i);
             }
             System.out.println();
-
         }
-
     }
-
 }

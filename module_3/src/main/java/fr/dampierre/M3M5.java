@@ -10,7 +10,5 @@ public class M3M5 {
             }
             System.out.println(i);
         }
-
     }
-
 }

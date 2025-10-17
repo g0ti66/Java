@@ -13,9 +13,6 @@ public class M3M3 {
                 System.out.print("*");
             }
             System.out.println();
-
         }
-
     }
-
 }
