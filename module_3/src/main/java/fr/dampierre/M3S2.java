@@ -6,12 +6,14 @@ public class M3S2 {
 
         int nbZero = 0;
         int nbUn = 1;
-        int fibonacci;
+        int fibonacci = 0;
 
-        for (int i = 2; i < 20; i++) {
-            fibonacci = nbZero + nbUn;
+        for (int i = 0; i < 20; i++) {
+
             System.out.print(fibonacci + " ");
 
+            // A rectifier
+            fibonacci = nbZero + nbUn;
             nbZero = nbUn;
             nbUn = fibonacci;
         }
