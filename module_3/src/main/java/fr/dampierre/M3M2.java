@@ -4,13 +4,10 @@ public class M3M2 {
 
     public static void main(String[] args) {
 
-        int lignes = 4;
-        int nbetoiles = 5;
-
         // Ligne
-        for (int i = 1; i <= lignes; i++) {
+        for (int i = 1; i <= 4; i++) {
             // Étoiles sur chaque lignes
-            for (int j = 1; j <= nbetoiles; j++) {
+            for (int j = 1; j <= 5; j++) {
                 System.out.print("*");
             }
             System.out.println();
