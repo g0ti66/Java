@@ -2,7 +2,7 @@ package fr.dampierre;
 
 import java.lang.Math;
 
-public class M3S3B {
+public class M3S4 {
 
     public static void main(String[] args) {
 
