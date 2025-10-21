@@ -8,12 +8,15 @@ public class M3S2 {
         int nbUn = 1;
         int fibonacci = 0;
 
-        for (int i = 0; i < 20; i++) {
+        System.out.print(nbZero + " ");
+        System.out.print(nbUn + " ");
+
+        for (int i = 1; i <= 20; i++) {
+
+            fibonacci = nbZero + nbUn;
 
             System.out.print(fibonacci + " ");
 
-            // A rectifier
-            fibonacci = nbZero + nbUn;
             nbZero = nbUn;
             nbUn = fibonacci;
         }
