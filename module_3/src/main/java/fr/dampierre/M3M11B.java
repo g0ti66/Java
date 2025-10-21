@@ -78,7 +78,6 @@ public class M3M11B {
                         }
                     }
                 }
-
                 for (int m4 = 18; m4 == i; m4++) {
                     for (int m5 = 18; m5 == j; m5++) {
                         for (int m6 = 1; m6 <= 6; m6++) {
