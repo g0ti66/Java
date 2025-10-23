@@ -7,9 +7,9 @@ public class M3M11 {
         // 6 lignes (20/4 r 2)
         for (int i = 22; i >= 2; i -= 4) {
             for (int j = 1; j <= i; j++) {
-                for (int k = 1; k == j; k++) {
-                    for (int k2 = 18; k2 >= i; k2 -= 4) {
-                        for (int l = 1; l <= 2; l++) {
+                for (int j2 = 1; j2 == j; j2++) {
+                    for (int j3 = 18; j3 >= i; j3 -= 4) {
+                        for (int j4 = 1; j4 <= 2; j4++) {
                             System.out.print("\\");
                         }
                     }
@@ -18,10 +18,10 @@ public class M3M11 {
                 System.out.print("!");
 
             }
-            for (int j = 1; j <= i; j++) {
-                for (int j2 = 1; j2 == j; j2++) {
-                    for (int k2 = 18; k2 >= i; k2 -= 4) {
-                        for (int l = 1; l <= 2; l++) {
+            for (int k = 1; k <= i; k++) {
+                for (int k2 = 1; k2 == k; k2++) {
+                    for (int k3 = 18; k3 >= i; k3 -= 4) {
+                        for (int k4 = 1; k4 <= 2; k4++) {
                             System.out.print("/");
                         }
                     }
