@@ -4,7 +4,7 @@ public class M3M11B {
 
     public static void main(String[] args) {
 
-        // 6 lignes (20/4 r 2)
+        // On veut 8 ligne : 30 - 22 (-=4)
         for (int i = 30; i >= 2; i -= 4) {
             for (int j = 1; j <= i; j++) {
                 for (int j2 = 1; j2 == j; j2++) {
