@@ -1,5 +1,3 @@
-# Ce programme est composé de 4 parties :
-## La première partie avec cette consigne :
 ### Un cinéma autorise l’entrée selon plusieurs critères :
 - l’âge minimum pour entrer seul est de 14 ans ;
 - si la personne a moins de 14 ans, elle peut entrer seulement si elle est accompagnée d’un adulte ;
