@@ -21,6 +21,11 @@ public class App {
         return degats;
     }
 
+    public static int degatInflige(int forceCombattantDeux, int agiliteCombattantDeux) {
+        int degatsCombattantDeux = (forceCombattantDeux / 2) + (int) (Math.random() * (agiliteCombattantDeux + 1));
+        return degatsCombattantDeux;
+    }
+
     public static void main(String[] args) {
 
         bienvenue();
@@ -29,5 +34,11 @@ public class App {
         System.out.println();
         int degats = degatSubit();
         System.out.println("Tu as subi " + degats + " dégâts !");
+        System.out.println();
+
+        int forceCombattantDeux = 100;
+        int agiliteCombattantDeux = 100;
+        int degatsCombattantDeux = degatInflige(forceCombattantDeux, agiliteCombattantDeux);
+        System.out.println("L'adversaire a infligé " + degatsCombattantDeux + " dégâts !");
     }
 }
